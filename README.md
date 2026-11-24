@@ -25,6 +25,35 @@ const Luna = {
   hobbies: ["Leer 📚", "Costura 🧵", "Salir con amigos 🥂", "Películas 🎬"],
   jobs: [
     {
+      role: "Jefa de Área (Coordinación y Procesos)",
+      company: "SCG 1887 SRL",
+      period: "2015 - 2019",
+      highlights: [
+        "Sistematización de puestos de trabajo y circuitos comunicacionales",
+        "Proyectos destacados: Genelba (Techint), AySA y Ministerio de Seguridad de Santa Fe"
+      ],
+      currentJob: false
+    },
+    {
+      role: "Consultora Freelance (Gestión de Proyectos y Herramientas)",
+      company: "Freelance",
+      period: "2019 - 2022",
+      highlights: [
+        "Gestión de proyectos, presupuestos y diseño de herramientas en Excel",
+        "Proyecto destacado: Viviendas modulares para la Base Aérea de Chamical"
+      ],
+      currentJob: false
+    },
+    {
+      role: "Procesamiento de Datos y Tableros",
+      company: "América Servicios",
+      period: "03/2022 - 11/2023",
+      highlights: [
+        "Procesamiento y control de bases de datos y confección de tableros de gestión"
+      ],
+      currentJob: false
+    },
+    {
       role: "Analista & Automatización / BI (Tesorería)",
       company: "URG Urgencias",
       period: "12/2023 - 09/2026",
@@ -83,9 +112,17 @@ const Luna = {
   * Diseño de prompts, entrenamiento y configuración de agentes de voz conversacionales en **ElevenLabs**.
   * Desarrollo de software asistido por Inteligencia Artificial utilizando **Claude** en **VS Code** (entornos con **Java**, **Git** y **Keycloak**).
 * **Analista Funcional, BI & Automatización (Tesorería)** en **URG Urgencias** *(12/2023 - 09/2026)*
-  * **Transformación Digital**: Relevamiento, documentación, diseño funcional y migración de sistema obsoleto de liquidaciones hacia un nuevo tablero de gestión.
+  * **Proyecto de Transformación Digital**: Relevamiento, documentación, diseño de flujogramas funcionales y migración de sistema obsoleto de liquidaciones hacia un nuevo tablero de gestión (rol equivalente a Analista Funcional).
   * **Automatización de Procesos**: Desarrollo de planillas inteligentes y flujos automatizados con **Google Sheets**, **Google Apps Script** y **UiPath StudioX**, reduciendo la carga operativa manual.
-  * **Análisis de Datos**: Creación de tableros e informes interactivos en **Power BI** para soporte a la toma de decisiones.
+  * **Análisis de Datos**: Creación de tableros e informes interactivos en **Power BI** para seguimiento operativo y soporte a la toma de decisiones.
+* **Análisis de Bases de Datos y Tableros** en **América Servicios** *(03/2022 - 11/2023)*
+  * Procesamiento y control de bases de datos, diseño de plantillas automatizadas, confección de tableros de control y elaboración de informes de gestión.
+* **Consultora en Gestión de Proyectos y Procesos** *(Freelance, 2019 - 2022)*
+  * Gestión integral de proyectos, planificación logística, presupuestos y diseño de herramientas personalizadas en Excel para seguimiento operativo y licitaciones.
+  * **Proyecto destacado**: *Viviendas modulares para la Base Aérea de Chamical*.
+* **Jefa de Área (Sistematización de Procesos y Proyectos)** en **SCG 1887 SRL** *(2015 - 2019)*
+  * Liderazgo de equipo, sistematización de puestos de trabajo, dirección del circuito comunicacional entre departamentos y desarrollo de herramientas internas en Excel para control de costos, planificación y seguimiento de producción.
+  * **Proyectos destacados**: *Genelba (Techint)*, *AySA* y *Ministerio de Seguridad de Santa Fe*.
 
 ### Meta futura 🚀
 
