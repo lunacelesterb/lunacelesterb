@@ -25,12 +25,29 @@ const Luna = {
   hobbies: ["Leer 📚", "Costura 🧵", "Salir con amigos 🥂", "Películas 🎬"],
   jobs: [
     {
-      role: "Jefa de Área (Coordinación y Procesos)",
-      company: "SCG 1887 SRL",
-      period: "2015 - 2019",
+      role: "AI & Voice Agents Developer",
+      company: "URG Urgencias",
+      period: "09/2026 - Present",
+      focus: "Prompting y configuración de agentes de voz en ElevenLabs y desarrollo asistido con IA (Claude + VS Code)",
+      currentJob: true
+    },
+    {
+      role: "Analista & Automatización / BI (Tesorería)",
+      company: "URG Urgencias",
+      period: "12/2023 - 09/2026",
       highlights: [
-        "Sistematización de puestos de trabajo y circuitos comunicacionales",
-        "Proyectos destacados: Genelba (Techint), AySA y Ministerio de Seguridad de Santa Fe"
+        "Tableros en Power BI",
+        "Automatizaciones con Google Sheets, Apps Script y UiPath StudioX",
+        "Transformación digital y diseño funcional de nuevo tablero de gestión"
+      ],
+      currentJob: false
+    },
+    {
+      role: "Procesamiento de Datos y Tableros",
+      company: "América Servicios",
+      period: "03/2022 - 11/2023",
+      highlights: [
+        "Procesamiento y control de bases de datos y confección de tableros de gestión"
       ],
       currentJob: false
     },
@@ -45,31 +62,14 @@ const Luna = {
       currentJob: false
     },
     {
-      role: "Procesamiento de Datos y Tableros",
-      company: "América Servicios",
-      period: "03/2022 - 11/2023",
+      role: "Jefa de Área (Coordinación y Procesos)",
+      company: "SCG 1887 SRL",
+      period: "2015 - 2019",
       highlights: [
-        "Procesamiento y control de bases de datos y confección de tableros de gestión"
+        "Sistematización de puestos de trabajo y circuitos comunicacionales",
+        "Proyectos destacados: Genelba (Techint), AySA y Ministerio de Seguridad de Santa Fe"
       ],
       currentJob: false
-    },
-    {
-      role: "Analista & Automatización / BI (Tesorería)",
-      company: "URG Urgencias",
-      period: "12/2023 - 09/2026",
-      highlights: [
-        "Tableros en Power BI",
-        "Automatizaciones con Google Sheets, Apps Script y UiPath StudioX",
-        "Transformación digital y diseño funcional de nuevo tablero de gestión"
-      ],
-      currentJob: false
-    },
-    {
-      role: "AI & Voice Agents Developer",
-      company: "URG Urgencias",
-      period: "09/2026 - Present",
-      focus: "Prompting y configuración de agentes de voz en ElevenLabs y desarrollo asistido con IA (Claude + VS Code)",
-      currentJob: true
     }
   ],
   currentJob: (jobs) => jobs.filter(job => job.currentJob === true),
